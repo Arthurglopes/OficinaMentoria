@@ -1,0 +1,78 @@
+.btn {
+    align-items: center;
+    appearance: none;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  
+  .btn:active,
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:hover {
+    background-position: -20px -20px;
+  }
+  
+  .btn:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  }
+  
+  
+  
+  #link{
+      font-size: 5rem;
+  } */
+  
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  :root {
+      --cor-principal: yellow;
+  
+  }
+  
+  body {
+      background-image: url("https://th.bing.com/th/id/OIP.iFc4nkc1evfMY2E44NNOQwHaD0?w=346&h=179&c=7&r=0&o=5&pid=1.7");
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: rgba(11, 74, 116, 0.966);
+      text-align: center;
+  }
+  ul {
+      display: flex;
+      border: 1px solid red;
+      padding: 1rem;
+  }
+  
+  ul li {
+      border: 1px solid green;
+      margin: .5rem;
+  }
